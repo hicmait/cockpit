@@ -22,9 +22,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.13",
     "@types/node": "^24.5.1",
-    "autoprefixer": "^10.4.21",
+    "autoprefixer": "^10.4.21"
+  },
+  "peerDependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
