@@ -13,10 +13,10 @@ const w = "data:image/svg+xml,%3csvg%20width='36'%20height='36'%20viewBox='0%200
   return /* @__PURE__ */ A(Q, { children: /* @__PURE__ */ g("div", { className: E.triggerContainer, children: [
     /* @__PURE__ */ A("div", { onClick: () => f(!I), className: E.triggerBtn, children: /* @__PURE__ */ A("img", { src: w, alt: "NACN AI", width: 50 }) }),
     /* @__PURE__ */ g("div", { className: `${!I && E.hidden} ${E.popover}`, children: [
-      /* @__PURE__ */ A("p", { className: "text-gray-800", children: "Hello there! How can I help you today?" }),
+      /* @__PURE__ */ A("p", { children: "Hello there! How can I help you today?" }),
       /* @__PURE__ */ A("h3", { children: "sldfkjsmlkdfjlmksdfjm" }),
       /* @__PURE__ */ A("p", { children: "sldmkfjlskdfjmlksdjfl" }),
-      /* @__PURE__ */ A("button", { className: "text-white", onClick: v, children: "Send" }),
+      /* @__PURE__ */ A("button", { onClick: v, children: "Send" }),
       /* @__PURE__ */ A("div", { className: E.popover_arrow })
     ] })
   ] }) });
