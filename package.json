@@ -23,7 +23,8 @@
   },
   "dependencies": {
     "@types/node": "^24.5.1",
-    "autoprefixer": "^10.4.21"
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.12.2"
   },
   "peerDependencies": {
     "react": "^19.1.1",
